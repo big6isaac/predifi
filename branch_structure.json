@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/trace-context-propagation",
+    "fix/issue-116-observability-propagate-trace-context-across",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feat/trace-context-propagation": "main",
+    "fix/issue-116-observability-propagate-trace-context-across": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feat/trace-context-propagation",
+    "fix/issue-116-observability-propagate-trace-context-across",
+    "origin"
+  ]
+}
